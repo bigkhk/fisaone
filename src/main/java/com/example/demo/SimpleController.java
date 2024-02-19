@@ -9,6 +9,6 @@ public class SimpleController {
 	@GetMapping("getdata")
 	public String m1() {
 		System.out.println("get -----");
-		return "fisa man";
+		return "fisa man--------/n";
 	}
 }
